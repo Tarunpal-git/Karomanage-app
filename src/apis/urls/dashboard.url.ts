@@ -1,0 +1,20 @@
+import { DASHBOARD_PREFIX } from "../../constants";
+
+export const dashboardUrls = {
+  FETCH_STUDENTS_COUNT: DASHBOARD_PREFIX + "getAllStudentCount",
+  FETCH_EMPLOYEE_COUNT: DASHBOARD_PREFIX + "getAllEmployeeCount",
+  TOTAL_RECEIVED_AND_UPCOMING_AMOUNT:
+    DASHBOARD_PREFIX + "getTotalReceivedAndUpcomingAmount",
+  FETCH_UPCOMING_FORECAST_PAYMENT:
+    DASHBOARD_PREFIX + "studentUpcomingPaymentList",
+  FETCH_EXPENSES_DATA: DASHBOARD_PREFIX + "ExpensesList",
+  FETCH_STUDENT_RECEIVED_PAYMENT:
+    DASHBOARD_PREFIX + "studentTotalReceivedPayment",
+
+  FETCH_OVERDUE_PAYMENT: DASHBOARD_PREFIX + "overDueStudentPaymentList",
+  FETCH_STUDENT_FEE_FORECAST: DASHBOARD_PREFIX + "studentFeeForcast",
+  FETCH_PAID_STUDENT_PAYMENT_LIST: DASHBOARD_PREFIX + "paidStudentPaymentList",
+  FETCH_OVERDUE_STUDENT_PAYMENT_LIST:
+    DASHBOARD_PREFIX + "overDueStudentPaymentList",
+  FETCH_TOTAL_EXPENSES: DASHBOARD_PREFIX + "totalExpenses",
+};

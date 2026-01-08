@@ -1,0 +1,3 @@
+type TDrawerNavigatorParams = {
+  Tabs: undefined;
+};
