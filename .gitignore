@@ -16,7 +16,6 @@ captures/
 
 # Kotlin / Java cache
 *.class
-*.jar
 *.war
 *.ear
 
@@ -42,7 +41,6 @@ Thumbs.db
 # LFS / large files
 *.zip
 *.tar.gz
-*.jar
 *.aar
 *.so
 *.dylib
